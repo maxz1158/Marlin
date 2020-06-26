@@ -324,11 +324,11 @@ void menu_advanced_settings();
   void menu_preheat_material1_settings() { _menu_configuration_preheat_settings(0); }
   void menu_preheat_material2_settings() { _menu_configuration_preheat_settings(1); }
   #if PREHEAT_COUNT >= 3
-    void menu_preheat_material3_settings() { _menu_configuration_preheat_settings(3); }
+    void menu_preheat_material3_settings() { _menu_configuration_preheat_settings(2); }
     #if PREHEAT_COUNT >= 4
-      void menu_preheat_material4_settings() { _menu_configuration_preheat_settings(4); }
+      void menu_preheat_material4_settings() { _menu_configuration_preheat_settings(3); }
       #if PREHEAT_COUNT >= 5
-        void menu_preheat_material5_settings() { _menu_configuration_preheat_settings(5); }
+        void menu_preheat_material5_settings() { _menu_configuration_preheat_settings(4); }
       #endif
     #endif
   #endif
