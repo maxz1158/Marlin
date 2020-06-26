@@ -88,6 +88,13 @@ namespace Language_en {
   PROGMEM Language_Str MSG_PREHEAT_2_ALL                   = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" All");
   PROGMEM Language_Str MSG_PREHEAT_2_BEDONLY               = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" Bed");
   PROGMEM Language_Str MSG_PREHEAT_2_SETTINGS              = _UxGT("Preheat ") PREHEAT_2_LABEL _UxGT(" Conf");
+  PROGMEM Language_Str MSG_PREHEAT_3                       = _UxGT("Preheat ") PREHEAT_3_LABEL;
+  PROGMEM Language_Str MSG_PREHEAT_3_H                     = _UxGT("Preheat ") PREHEAT_3_LABEL " ~";
+  PROGMEM Language_Str MSG_PREHEAT_3_END                   = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" End");
+  PROGMEM Language_Str MSG_PREHEAT_3_END_E                 = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" End ~");
+  PROGMEM Language_Str MSG_PREHEAT_3_ALL                   = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" All");
+  PROGMEM Language_Str MSG_PREHEAT_3_BEDONLY               = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" Bed");
+  PROGMEM Language_Str MSG_PREHEAT_3_SETTINGS              = _UxGT("Preheat ") PREHEAT_3_LABEL _UxGT(" Conf");
   PROGMEM Language_Str MSG_PREHEAT_CUSTOM                  = _UxGT("Preheat Custom");
   PROGMEM Language_Str MSG_COOLDOWN                        = _UxGT("Cooldown");
   PROGMEM Language_Str MSG_CUTTER_FREQUENCY                = _UxGT("Frequency");

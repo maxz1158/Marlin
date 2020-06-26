@@ -2093,7 +2093,7 @@
 #endif
 
 #if HAS_TEMPERATURE && EITHER(HAS_LCD_MENU, DWIN_CREALITY_LCD)
-  #define PREHEAT_COUNT 2
+  #define PREHEAT_COUNT 3
 #else
   #undef PREHEAT_COUNT
 #endif
